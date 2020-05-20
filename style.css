@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.clr {
+    height: 71px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 1920px;
+    ​min​-​height​: ​ 100%;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 970px;
+    min-width: 970px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/***************************************************************/
+.headerImg {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("img/2.png") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 13px;
+}
+.logoInfo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 18px 474px;
+
+}
+.contacts{
+    display: flex;
+
+}
+.contact_item{
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+}
+.contact_item a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.contact_item p {
+    color: #fff;
+    padding-left: 12px;
+}
+
+form{
+    position: relative;
+    width: 208px;
+}
+
+input[type="search"]::placeholder {
+    color: #fff;
+}
+#searchPole{
+    background: transparent;
+    width: 100%;
+    line-height: 38px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+button{
+    position: absolute;
+    top: 2px;
+    right: 15px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-left: 2px solid #fff;
+    height: 38px;
+    padding-left: 15px;
+}
+
+.headingUp {
+    font-size: 36px;
+    line-height: 0.63;
+    letter-spacing: 0.36px;
+}
+.headingDown{
+    font-size: 15px;
+     line-height: 1.5;
+    letter-spacing: 30px;
+}
+.logo p{
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_item{
+   padding: 25px 12px;
+    border-bottom: 3px solid transparent;
+}
+.menu_link {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: condensed;
+    line-height: 1.32;
+    letter-spacing: 0.17px;
+    text-align: center;
+}
+.menu_link:hover{
+    color: #fff;
+}
+.menu_item:hover{
+    border-bottom: 3px solid #fff;
+}
+.headerText{
+    margin-top: 133px;
+    text-align: center;
+    color: #fff;
+}
+.headerText p{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 2.67;
+    letter-spacing: 0.18px;
+    margin-bottom: 70px;
+}
+.headerText h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 0.8;
+    letter-spacing: 0.6px;
+    margin-bottom: 75px;
+}
+
+.socItems {
+    display: flex;
+    justify-content: center;
+}
+.socItems .soc_item{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    margin: 0 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 40px;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: Poppins, sans-serif;
+}
+.about h2 {
+   font-size: 36px;
+    font-weight: 500;
+     color: #f44336;
+}
+.about p {
+    font-size: 12px;
+    font-weight: 300;
+      line-height: 2;
+    letter-spacing: 0.12px;
+    color: #999999;
+    margin-right: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    height: 71px;
+    margin-top: -71px;
+    clear: both;
+    background-color: #000;
+}
