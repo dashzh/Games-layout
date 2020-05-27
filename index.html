@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div class="wrapper">
@@ -23,7 +23,7 @@
                         <ul class="contacts">
                             <li class="contact_item">
                                 <a href="#"><img src="img/тел.png" alt="telephone" class="contact_img1">
-                                    <p>+123 456 7890</p></a>
+                                    <p>+123&nbsp;456&nbsp;7890</p></a>
                             </li>
                             <li class="contact_item">
                                 <a href="#"><img src="img/email.png" alt="email" class="contact_img2">
@@ -31,10 +31,11 @@
                             </li>
                         </ul>
                         <div class="search">
-                            <form action="#">
+                            <form action="#" class="searchForm">
                                 <label for="searchPole"></label>
                                 <input type="search" id="searchPole" placeholder="Search">
-                                <button type="submit" class="buttonSearch"><img src="img/search.png" alt="search"></button>
+                                <button type="submit" class="buttonSearch"><img src="img/search.png" alt="search">
+                                </button>
                                 <!--                        <button class="search"><img src="img/search.png" alt="search"></button>-->
                             </form>
                         </div>
@@ -89,7 +90,7 @@
                 </div>
             </article>
         </div>
-        <div class="anotherContent">
+        <section class="anotherContent">
             <div class="services">
                 <div>
                     <h2 class="header_section">Services</h2>
@@ -146,42 +147,379 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="gallery">
+        </section>
+        <section class="gallery">
             <div class="contentSecond">
                 <div>
                     <h2 class="header_section">Our Gallery</h2>
                 </div>
                 <div class="galleryImg">
-                    <div class="galleryBlock">
+                    <div class="galleryBlock firstgalleryBlock">
+                        <!--                        <div class="galleryNameText">-->
                         <img src="img/71-ivm-50-pp-7-l-sl-1273-1024-x-1024-2-x.png" alt="">
                         <p><span>Assasin’s Creed:</span> Rogue</p>
+                        <!--                        </div>-->
                         <button type="button" class="buyButton">Buy</button>
                     </div>
-                    <div class="galleryBlock">
+                    <div class="galleryBlock firstgalleryBlock">
+                        <!--                        <div class="galleryNameText">-->
                         <img src="img/71-ivm-50-pp-7-l-sl-1273-1024-x-1024-2-x.png" alt="">
                         <p><span>Tomb Raider</span></p>
+                        <!--                        </div>-->
                         <button type="button" class="buyButton">Buy</button>
                     </div>
-                    <div class="galleryBlock">
+                    <div class="galleryBlock firstgalleryBlock">
+                        <!--                        <div class="galleryNameText">-->
                         <img src="img/71-ivm-50-pp-7-l-sl-1273-1024-x-1024-2-x.png" alt="">
                         <p><span>Ryse:</span> Son Of Rome</p>
+                        <!--                        </div>-->
                         <button type="button" class="buyButton">Buy</button>
                     </div>
-                    <div class="galleryBlock">
+                    <div class="galleryBlock firstgalleryBlock">
+                        <!--                        <div class="galleryNameText">-->
                         <img src="img/71-ivm-50-pp-7-l-sl-1273-1024-x-1024-2-x.png" alt="">
                         <p><span>World Of Warcraft:</span> <br> Wrath Of The Linch King</p>
+                        <!--                        </div>-->
                         <button type="button" class="buyButton">Buy</button>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="testimonial">
+
+            <div class="slideshow">
+                <div class="slides">
+                    <img src="img/3.png" alt="">
+                    <div class="sledesText contentSecond">
+                        <h2>Testimonial</h2>
+                        <!--                        <img src="img/2.svg" alt="">-->
+                        <p>Donec feugiat tellus sem, laoreet iaculis orci lobortis vel. Sed sed luctus orci, at lacinia
+                            risus. Ut porttitor ante ac tincidunt elementum. Curabitur ex dolor, condimentum vitae nunc
+                            vel, pulvinar semper justo. Vestibulum et aliquet magna, maximus dapibus enim. Vestibulum ex
+                            lectus, posuere eu viverra at, mattis et enim. Nam efficitur sem et lectus fringilla, at
+                            pharetra nulla luctus. Nunc cursus, augue ac ultricies volutpat, neque erat congue justo, ac
+                            pretium tellus eros a neque. Integer ipsum sem,
+                            consectetur a mollis ac, cursus eu ipsum.</p>
+                        <p class="author">JOHN SMITH - <span>FOUNDER</span></p>
+                    </div>
+                </div>
+                <div class="slides">
+                    <img src="img/3.png" alt="">
+                    <div class="sledesText contentSecond">
+                        <h2>Second Slide</h2>
+                        <!--                        <img src="img/2.svg" alt="">-->
+                        <p>Donec feugiat tellus sem, laoreet iaculis orci lobortis vel. Sed sed luctus orci, at lacinia
+                            risus. Ut porttitor ante ac tincidunt elementum. Curabitur ex dolor, condimentum vitae nunc
+                            vel, pulvinar semper justo. Vestibulum et aliquet magna, maximus dapibus enim. Vestibulum ex
+                            lectus, posuere eu viverra at, mattis et enim. Nam efficitur sem et lectus fringilla, at
+                            pharetra nulla luctus. Nunc cursus, augue ac ultricies volutpat, neque erat congue justo, ac
+                            pretium tellus eros a neque. Integer ipsum sem,
+                            consectetur a mollis ac, cursus eu ipsum.</p>
+                        <p class="author">JOHN SMITH - <span>FOUNDER</span></p>
+                    </div>
+                </div>
+                <div class="slides">
+                    <img src="img/3.png" alt="">
+                    <div class="sledesText contentSecond">
+                        <h2>Third Slide </h2>
+                        <!--                        <img src="img/2.svg" alt="">-->
+                        <p>Donec feugiat tellus sem, laoreet iaculis orci lobortis vel. Sed sed luctus orci, at lacinia
+                            risus. Ut porttitor ante ac tincidunt elementum. Curabitur ex dolor, condimentum vitae nunc
+                            vel, pulvinar semper justo. Vestibulum et aliquet magna, maximus dapibus enim. Vestibulum ex
+                            lectus, posuere eu viverra at, mattis et enim. Nam efficitur sem et lectus fringilla, at
+                            pharetra nulla luctus. Nunc cursus, augue ac ultricies volutpat, neque erat congue justo, ac
+                            pretium tellus eros a neque. Integer ipsum sem,
+                            consectetur a mollis ac, cursus eu ipsum.</p>
+                        <p class="author">JOHN SMITH - <span>FOUNDER</span></p>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </section>
+        <section class="newsEvents">
+            <div class="contentSecond">
+                <h1 class="header_section">News & Events</h1>
+                <div class="news">
+                    <div class="newsParts">
+                        <h2 class="newsParts-header">Latest News</h2>
+                        <div class="newsPartsOne">
+                            <div class="newsDate">
+                                <p><span class="date">15</span> <span class="month">June</span> 2018</p>
+                            </div>
+                            <div class="newsInfo">
+                                <h3>Fugiat Quo Voluptas</h3>
+                                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate
+                                    velit esse</p>
+                            </div>
+                        </div>
+                        <div class="newsPartsOne">
+                            <div class="newsDate">
+                                <p><span class="date">15</span> <span class="month">June</span> 2018</p>
+                            </div>
+                            <div class="newsInfo">
+                                <h3>Fugiat Quo Voluptas</h3>
+                                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate
+                                    velit esse</p>
+                            </div>
+                        </div>
+                        <div class="newsPartsOne">
+                            <div class="newsDate">
+                                <p><span class="date">15</span> <span class="month">June</span> 2018</p>
+                            </div>
+                            <div class="newsInfo">
+                                <h3>Fugiat Quo Voluptas</h3>
+                                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate
+                                    velit esse</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsParts">
+                        <div class="newsParts-arrowsHeader">
+                            <h2 class="newsParts-header header-hr">Featured Events</h2>
+                            <a class="left" onclick="miniplusSlides(-1)">&#10094;</a>
+                            <a class="right" onclick="miniplusSlides(1)">&#10095;</a>
+                        </div>
+                        <div class="mini-slideshow-container">
+
+                            <div class="mini-mySlides">
+                                <img src="img/g-9.png" alt="">
+                                <img src="img/g-7.png" alt="">
+                                <img src="img/g-3.png" alt="">
+                            </div>
+
+                            <div class="mini-mySlides">
+                                <img src="img/g-3.png" alt="">
+                                <img src="img/g-9.png" alt="">
+                                <img src="img/g-7.png" alt="">
+                            </div>
+
+                            <div class="mini-mySlides">
+                                <img src="img/g-7.png" alt="">
+                                <img src="img/g-3.png" alt="">
+                                <img src="img/g-9.png" alt="">
+                            </div>
+
+
+                        </div>
+
+                        <details>
+                            <summary>
+                                Assumenda Est Cliche Reprehenderit
+                            </summary>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer
+                                took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </details>
+                        <details>
+                            <summary>
+                                Assumenda Est Cliche Reprehenderit
+                            </summary>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer
+                                took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </details>
+                        <details>
+                            <summary>
+                                Assumenda Est Cliche Reprehenderit
+                            </summary>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer
+                                took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </details>
+                        <details>
+                            <summary>
+                                Assumenda Est Cliche Reprehenderit
+                            </summary>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer
+                                took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </details>
+
+
+                        <script>
+                            let minislideIndex = 1;
+                            minishowSlides(minislideIndex);
+
+                            function miniplusSlides(n) {
+                                minishowSlides(minislideIndex += n);
+                            }
+
+                            function currentSlide(n) {
+                                minishowSlides(minislideIndex = n);
+                            }
+
+                            function minishowSlides(n) {
+                                let i;
+                                let slides = document.getElementsByClassName("mini-mySlides");
+                                if (n > slides.length) {
+                                    minislideIndex = 1
+                                }
+                                if (n < 1) {
+                                    minislideIndex = slides.length
+                                }
+                                for (i = 0; i < slides.length; i++) {
+                                    slides[i].style.display = "none";
+                                }
+                                slides[minislideIndex - 1].style.display = "block";
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team">
+            <div class="contentSecond">
+                <h2 class="header_section">Services</h2>
+                <div class="ourTeam">
+                    <div class="galleryBlock teamBlock">
+                        <img src="img/t-1.png" alt="">
+                        <p class="teamName">Mary Jane</p>
+                        <p class="teamJob">Vestibulum</p>
+                        <ul class="teamInfo">
+                            <li class="team_call">
+                                <a href="#"><img src="img/facebook.png" alt="facebook" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call">
+                                <a href="#"><img src="img/twitter.png" alt="twitter" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call">
+                                <a href="#"><img src="img/interface.png" alt="interface" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call"><a href="#"><img src="img/vk.png" alt="vk" class="soc_icons"></a></li>
+                        </ul>
+                    </div>
+                    <div class="galleryBlock teamBlock">
+                        <img src="img/t-2.png" alt="">
+                        <p class="teamName">Peter Parker</p>
+                        <p class="teamJob">Vestibulum</p>
+                        <ul class="teamInfo">
+                            <li class="team_call">
+                                <a href="#"><img src="img/facebook.png" alt="facebook" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call">
+                                <a href="#"><img src="img/twitter.png" alt="twitter" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call">
+                                <a href="#"><img src="img/interface.png" alt="interface" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call"><a href="#"><img src="img/vk.png" alt="vk" class="soc_icons"></a></li>
+                        </ul>
+                    </div>
+                    <div class="galleryBlock teamBlock">
+                        <img src="img/t-2.png" alt="">
+                        <p class="teamName">John Watson</p>
+                        <p class="teamJob">Vestibulum</p>
+                        <ul class="teamInfo">
+                            <li class="team_call">
+                                <a href="#"><img src="img/facebook.png" alt="facebook" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call">
+                                <a href="#"><img src="img/twitter.png" alt="twitter" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call">
+                                <a href="#"><img src="img/interface.png" alt="interface" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call"><a href="#"><img src="img/vk.png" alt="vk" class="soc_icons"></a></li>
+                        </ul>
+                    </div>
+                    <div class="galleryBlock teamBlock">
+                        <img src="img/t-4.png" alt="">
+                        <p class="teamName">Steven Wilson</p>
+                        <p class="teamJob">Vestibulum</p>
+                        <ul class="teamInfo">
+                            <li class="team_call">
+                                <a href="#"><img src="img/facebook.png" alt="facebook" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call">
+                                <a href="#"><img src="img/twitter.png" alt="twitter" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call">
+                                <a href="#"><img src="img/interface.png" alt="interface" class="soc_icons"></a>
+                            </li>
+                            <li class="team_call"><a href="#"><img src="img/vk.png" alt="vk" class="soc_icons"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="contentSecond">
+                <h2 class="header_section">Subscribe with Us</h2>
+                <form action="#" class="subscribeForm">
+                    <input type="email" id="email">
+                    <button type="submit" class="buttonSubscribe">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <section class="contact">
+            <h1 class="header_section">Contact Us</h1>
+            <div class="contentSecond contact-wrapper">
+                <div class="getInTouch">
+                    <h2>Get in touch with us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sheets
+                        containing Lorem Ipsum passages sed do, At vero eos et accusamus et
+                        iusto odio digs qui blanditiis</p>
+                    <p>Leningradsky AVE 39, BLDG 79<br>
+                        MOSCOW 125167, Russia</p>
+                    <p>Telephone : +00 111 222 3333</p>
+                    <p>FAX : +1 888 888 4444</p>
+                    <p>Email : <a href="mailto:mail@example.com">mail@example.com</a></p>
+                </div>
+                <form action="#" class="formContact">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" placeholder="Massege"></textarea>
+                    <button type="submit" class="buttonSubmit">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+        <section class="route">
+            <div class="contentSecond route-wrapper">
+                <h1 class="header_section">Route Map copy</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71884.85683600947!2d37.513261798472875!3d55.73414782180946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1590589138792!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+
+
     </main>
     <div class="clr"></div>
 </div> <!--wrapper-->
 <footer>
-
+    <p>&copy; 2017 Историческе Игры. Все права защищены</p>
+    <!--    <p>&copy; <?php date('Y')?> Историческе Игры. Все права защищены</p>-->
 </footer>
 
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let chooseSlides = document.getElementsByClassName("slides");
+        if (n > chooseSlides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = chooseSlides.length
+        }
+        for (i = 0; i < chooseSlides.length; i++) {
+            chooseSlides[i].style.display = "none";
+        }
+        chooseSlides[slideIndex - 1].style.display = "block";
+    }
+</script>
 </body>
 </html>
