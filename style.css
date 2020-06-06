@@ -10,7 +10,14 @@ html, body {
 .clr {
     height: 71px;
 }
-
+.flex-block-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-block-center{
+    display: flex;
+    justify-content: center;
+}
 .wrapper {
     margin: 0 auto;
     max-width: 1920px;
@@ -68,8 +75,6 @@ li {
 }
 
 .logoInfoInner {
-    display: flex;
-    justify-content: space-between;
     padding: 18px 0;
 }
 
@@ -78,8 +83,6 @@ li {
 }
 
 .contact_item {
-    display: flex;
-    align-items: center;
     padding: 0 18px;
 }
 
@@ -143,11 +146,6 @@ input[type="search"]::placeholder {
     font-weight: 500;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-}
-
 hr {
     margin-top: -3px;
 }
@@ -200,26 +198,17 @@ hr {
     margin-bottom: 75px;
 }
 
-.socItems {
-    display: flex;
-    justify-content: center;
-}
-
 .socItems .soc_item {
     width: 40px;
     height: 40px;
     border: 2px solid #ffffff;
     border-radius: 50px;
     margin: 0 6px;
-    display: flex;
     align-items: center;
-    justify-content: center;
     line-height: 40px;
 }
 
 article {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -258,8 +247,6 @@ article {
 }
 
 .services_items {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -318,9 +305,7 @@ article {
     border: 1px solid #acacac;
     background-color: #e1e1e1;
     border-radius: 50%;
-    display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .service_img:hover {
@@ -334,8 +319,6 @@ article {
 }
 
 .galleryImg {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 180px;
 }
@@ -352,7 +335,6 @@ article {
 
 .galleryBlock {
     text-align: center;
-
     margin: 0;
     padding: 0;
     flex-basis: 20%;
@@ -468,19 +450,12 @@ article {
 }
 
 .news, .newsPartsOne {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .newsEvents .header_section {
     text-align: center;
     margin-bottom: 100px;
-}
-
-.newsPartsOne {
-    display: flex;
-    justify-content: space-between;
 }
 
 .newsPartsOne {
@@ -626,8 +601,6 @@ details[open] summary:before {
 }
 
 .ourTeam {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -647,7 +620,6 @@ details[open] summary:before {
 
 .teamInfo {
     display: flex;
-    /*justify-content: center;*/
 }
 
 .teamInfo .team_call {
@@ -658,7 +630,6 @@ details[open] summary:before {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*line-height: 40px;*/
 }
 
 .teamBlock p {
@@ -879,8 +850,6 @@ footer span {
 }
 
 .product-imges {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -989,8 +958,6 @@ footer span {
 }
 
 .discount {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 170px;
     font-family: Poppins, sans-serif;
@@ -1010,7 +977,7 @@ footer span {
     top: 50%;
     transform: translateY(-50%);
     left: 10%;
-    width: 330px;
+    width: 50%;
 }
 
 .discount-parts-text .product-price {
@@ -1050,9 +1017,6 @@ footer span {
     background-color: #f44336;
     border: none;
 }
-
-/*.discount-parts img{*/
-/*}*/
 
 /*******************************************/
 /*******************************************/
@@ -1166,8 +1130,14 @@ footer span {
     .slides-img img {
         width: 100%;
     }
+    .discount-parts {
+        width: 100%;
+    }
+    .discount-parts-price, .discount-parts-name, .discount-parts-text .product-price{
+        font-size: 1.4em;
+    }
 }
-
+/*****************************************************/
 @media screen and (min-width: 768px) and (max-width: 1100px) {
     .galleryBlock {
         flex-basis: 40%;
